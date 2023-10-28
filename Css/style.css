@@ -29,14 +29,19 @@ body {
     position: relative;
     flex: 30%;
     background: #fff;
-    border-right: 1px solid #000;
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .container .rightSide {
     position: relative;
     flex: 70%;
     background: #fff;
-    border-right: 1px solid #000;
+}
+
+.container .rightSide {
+    position: relative;
+    flex: 70%;
+    background: #e5ddd5;
 }
 
 .container .rightSide::before {
@@ -47,4 +52,11 @@ body {
     width: 100%;
     height: 100%;
     background: url(../images/background.jpg);
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #ededed;
 }
