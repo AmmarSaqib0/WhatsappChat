@@ -197,3 +197,15 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.message_p b {
+    background: #06d755;
+    color: #fff;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
