@@ -1,5 +1,5 @@
 const sqlite3 = require('sqlite3').verbose();
-// let sql;
+let sql;
 
 // let time = new Date(); // for now
 

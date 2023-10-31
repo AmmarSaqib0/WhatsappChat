@@ -1,5 +1,17 @@
 {
+  "name": "whatsappchat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify JS/main.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
+    "browserify": "^17.0.0",
     "sqlite3": "^5.1.6"
   }
 }
